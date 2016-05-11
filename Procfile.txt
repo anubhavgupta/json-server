@@ -1,1 +1,1 @@
-web: node bin/index.js -p 5000 -w bin/db.json
+web: node bin/index.js -w bin/db.json
