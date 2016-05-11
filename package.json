@@ -41,7 +41,7 @@
     "test:cli": "NODE_ENV=test mocha -R spec test/cli/*.js",
     "test:server": "NODE_ENV=test mocha -R spec test/server/*.js",
     "start": "node bin",
-    "prepush": "npm t"
+    "prepush": ""
   },
   "repository": {
     "type": "git",
