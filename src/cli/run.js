@@ -110,7 +110,7 @@ module.exports = function (argv) {
 
       // Create app and server
       app = createApp(source, data, routes, argv)
-      server = app.listen(argv.port, argv.host)
+      server = app.listen(process.env.PORT || 5000, argv.host)
 
       // Enhance with a destroy function
       enableDestroy(server)
