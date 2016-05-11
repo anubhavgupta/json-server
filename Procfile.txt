@@ -1,1 +1,1 @@
-web: node bin/index.js -w bin/db.json
+web: node bin/index.js -w db.json
