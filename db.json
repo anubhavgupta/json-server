@@ -5,5 +5,22 @@
       "balance" : 2000,
       "currency": "$"
     }
-  ]
+  ],
+
+  "survey_questions":[
+    {
+      "id":1,
+      "text":"What's your name ?"
+    },
+    {
+      "id":2,
+      "text":"What's your age ?"
+    },
+    {
+      "id":3,
+      "text":"What's your sex ?"
+    }
+  ],
+
+  "responses":[]
 }
